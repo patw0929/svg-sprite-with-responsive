@@ -1,0 +1,8 @@
+{
+  "name": "svg-sprite-with-responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "author": "patw",
+  "license": "MIT"
+}
