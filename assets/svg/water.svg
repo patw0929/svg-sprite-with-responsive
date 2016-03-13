@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="95px" viewBox="0 0 96 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>water</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="water" sketch:type="MSLayerGroup" transform="translate(-2.000000, -2.000000)" fill="#0994FF">
+            <g id="layer1" transform="translate(0.573755, 0.508349)" sketch:type="MSShapeGroup">
+                <g id="g4141" transform="translate(0.863615, 0.605631)">
+                    <ellipse id="path4366" cx="48.4645032" cy="48.2269322" rx="47.2766478" ry="47.2766478"></ellipse>
+                    <g id="g4383" transform="translate(23.204091, 30.094374)" stroke="#FFFFFF" stroke-width="8.60735714">
+                        <path d="M0.374588779,6.55530362 C16.6692006,17.9802614 31.8400462,-8.05365874 50.1948963,6.18071485" id="path4377"></path>
+                        <path d="M0.374588779,19.1040277 C16.6692006,30.5289855 31.8400462,4.49506534 50.1948963,18.7294389" id="path4379"></path>
+                        <path d="M0.374588779,31.6527518 C16.6692006,43.0777095 31.8400462,17.0437894 50.1948963,31.278163" id="path4381"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

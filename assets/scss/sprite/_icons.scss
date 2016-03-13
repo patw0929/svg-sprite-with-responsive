@@ -1,0 +1,53 @@
+@mixin recalc-bgsize($name, $new-width) {
+  $sprite-width: 100;
+  $sprite-width-maps: (
+    can: 34,
+    package: 44,
+    water: 100
+  );
+  background-size: #{($new-width / map-get($sprite-width-maps, $name)) * $sprite-width}px;
+}
+
+
+%svg-common {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+  background-image: url("/static/images/sprite.png");
+  // scss-lint:disable DuplicateProperty
+  background-image: none, url("/static/images/sprite.svg");
+  // scss-lint:enable DuplicateProperty
+  background-repeat: no-repeat;
+}
+
+.svg-can {
+  @extend %svg-common;
+  background-position: 0 0;
+}
+
+.svg-can-dims {
+  width: 34px;
+  height: 34px;
+}
+
+.svg-package {
+  @extend %svg-common;
+  background-position: 0 25.449101796407188%;
+}
+
+.svg-package-dims {
+  width: 44px;
+  height: 44.4px;
+}
+
+.svg-water {
+  @extend %svg-common;
+  background-position: 0 100%;
+}
+
+.svg-water-dims {
+  width: 100px;
+  height: 99px;
+}
+

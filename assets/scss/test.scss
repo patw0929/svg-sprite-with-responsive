@@ -1,0 +1,27 @@
+@import "sprite/icons";
+
+body {
+  font-family: Helvetica, Arial;
+}
+
+.icon {
+  display: block;
+}
+
+.svg-can--large {
+  @include recalc-bgsize(can, 88);
+  width: 88px;
+  height: 88px;
+}
+
+.svg-package--large {
+  @include recalc-bgsize(package, 88);
+  width: 88px;
+  height: 88.8px;
+}
+
+.svg-water--large {
+  @include recalc-bgsize(water, 200);
+  width: 200px;
+  height: 198px;
+}
